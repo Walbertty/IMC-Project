@@ -1,6 +1,6 @@
 # IMC-Project
 
-![preview](./.image/IMC-Project.png)
+![preview](./image/IMC-Project.png)
 
 Project built by me to train and use some acquired knowledge
 
