@@ -27,12 +27,7 @@ form.onsubmit = event => {
 
 function displayResultMessage(result) {
     const message = `Seu IMC é de ${result}`
-    
-    if (weightOrHeightIsNotANumber) {
-        AlertError.open()
-        return;
-    }
-
+ 
     Modal.message.innerText = message
     Modal.open()
 }
