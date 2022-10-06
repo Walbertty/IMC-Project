@@ -11,6 +11,16 @@ form.onsubmit = event => {
 
     const weight = inputWeight.value
     const height = inputHeight.value
+    
+    if (parseFloat(weight) < 0) {
+        alert("Peso nao pode ser negativo");
+        return false;
+    }
+
+    if (parseFloat(height) < 0) {
+        alert("Altura nao pode ser negativa");
+        return false;
+    }
 
     const weightOrHeightIsNotANumber = notANumber(weight) || notANumber(height)
 
